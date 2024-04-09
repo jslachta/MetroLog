@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net6.0;net6.0-android;net6.0-ios;net6.0-maccatalyst</TargetFrameworks>
-        <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net6.0-windows10.0.19041.0</TargetFrameworks>
+        <TargetFrameworks>net8.0;net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
+        <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.19041.0</TargetFrameworks>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <CodeAnalysisRuleSet>StyleCopRules.ruleset</CodeAnalysisRuleSet>
@@ -36,14 +36,14 @@
         <PackageTags>maui, netmaui, Logging log extensions NLog log4net ios android xamarin dotnet netcore</PackageTags>
 
         <PackageReleaseNotes>
-            First .Net 6 (MAUI) release \o/
+            First .Net 8 (MAUI) release \o/
         </PackageReleaseNotes>
 
         <Title>MetroLog Lightweight Logging for .net 6 (MAUI and beyond!)</Title>
         <Summary />
-        <Description>MetroLog is a lightweight logging framework designed for .net 6. Although the API is based on NLog and log4net, the intention is that it's a very basic logging system.
+        <Description>MetroLog is a lightweight logging framework designed for .NET 8. Although the API is based on NLog and log4net, the intention is that it's a very basic logging system.
 
-            This version targets .net 6, which includes all platforms.
+            This version targets .NET 8, which includes all platforms.
         </Description>
 
         <Owners>Jean-Marie Alfonsi</Owners>

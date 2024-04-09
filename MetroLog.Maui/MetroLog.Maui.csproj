@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <UseMaui>true</UseMaui>
         <Nullable>enable</Nullable>
@@ -50,6 +50,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\MetroLog.Net8\MetroLog.Net8.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
       <MauiXaml Update="MetroLogPage.xaml">
         <SubType>Designer</SubType>
       </MauiXaml>
@@ -60,10 +64,6 @@
         <DependentUpon>MainPage.xaml</DependentUpon>
         <SubType>Code</SubType>
       </Compile>
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\MetroLog.Net6\MetroLog.Net6.csproj" />
     </ItemGroup>
 
 </Project>

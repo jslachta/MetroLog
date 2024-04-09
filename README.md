@@ -1,12 +1,12 @@
 | Platform        | Logo               | Package                                                                                                                          |
 |-----------------|--------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| `MetroLog.Net6` | <img src="logo.png" width="200" />      | [![Nuget](https://img.shields.io/nuget/v/MetroLog.Net6.svg)](https://www.nuget.org/packages/MetroLog.Net6) |
+| `MetroLog.Net8` | <img src="logo.png" width="200" />      | [![Nuget](https://img.shields.io/nuget/v/MetroLog.Net6.svg)](https://www.nuget.org/packages/MetroLog.Net6) |
 | `MetroLog.Maui` | <img src="logo.maui.png" width="200" /> | [![Nuget](https://img.shields.io/nuget/v/MetroLog.Maui.svg)](https://www.nuget.org/packages/MetroLog.Maui) |
 
 
 # Overview
 
-MetroLog.Net6 is a .NET 6 lightweight logging framework designed primarily for mobile platforms like `iOS` and `Android`.
+MetroLog.Net6 is a .NET 8 lightweight logging framework designed primarily for mobile platforms like `iOS` and `Android`.
 
 The intention is that MetroLog is mostly compatible with `NLog`. Both the surface area and internal construction
 should just about match.
